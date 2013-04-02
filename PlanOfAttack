@@ -1,0 +1,17 @@
+Week1
+- prepare investment data as csv w/ ticker, date, shares, description, account
+
+Week2
+- import investment data into database
+- write module to pull daily price quotes (pandas.datareader)
+- save daily price quotes in database
+
+Week3
+- plot daily value using matplotlib
+
+Week4
+- create gui for adding new investments
+
+Week5
+- update database as new investments are added
+
