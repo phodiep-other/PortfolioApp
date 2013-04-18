@@ -3,15 +3,29 @@ Week1
 
 Week2
 - import investment data into database
-- write module to pull daily price quotes (pandas.datareader)
-- save daily price quotes in database
+temp = DataFrame.from_csv('temp.csv')
 
 Week3
-- plot daily value using matplotlib
+- write module to pull daily price quotes (pandas.datareader)
+- save daily price quotes in database or save in file using pandas
+- all ticker info in single file or separate file for each?
+
+- write using to_csv   "a.to_csv('temp.csv')"   writes to file named as temp.csv
 
 Week4
-- create gui for adding new investments
+- create form for adding new investments
+- or import new investments as csv
 
 Week5
 - update database as new investments are added
+- "pandas.concat([df1,df2])" to merge dataframes
+- use 'df1.join(df2)' to merge using index
+- 'e=a.join(b,lsuffix='_a',rsuffix='_b')' to join by index but still allow overlapping columns… renames w/ L/R suffix
 
+
+week6
+- plot daily value using matplotlib
+
+
+test pass in ticker '123' and get "none"
+pass in real ticker and compare specific date for match
